@@ -1231,6 +1231,21 @@ section {
     display: inline-flex
 }
 
+
+#load{
+    width:100%;
+    height:100%;
+    position:fixed;
+    z-index:9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background:url("") no-repeat center center #101010;
+}
+
+
 @media screen and (max-width: 1200px) {
     .image-container {
         display: none;
