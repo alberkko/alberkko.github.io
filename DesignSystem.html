@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Page 2</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<script src="//unpkg.com/@triggerjs/trigger" defer></script>
+<script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.27/bundled/lenis.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+
+<body>
+    <div class="">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="Group 203.svg" alt="Logo">
+                </a>
+            </div>
+            <ul class="nav-items">
+                <li><a onmousedown="openCaseStudies()" href="index.html#case_studies">CASE STUDIES</a></li>
+                <li><a onmousedown="openVisuals()" href="index.html#case_studies">DESIGN SHOTS</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+
+        <div class="projectheader"
+            style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 80px;">
+            <div class="titlesubtitlte">
+                <div class="projecttitle">Vial Design System
+                </div>
+                <div class="projecttext">Vial is a clinical research organization (CRO) delivering faster and more
+                    efficient trials for sponsors through its end-to-end technology platform. To deliver on this vision
+                    our team was tasked with building multiple customer facing products and several internal facing
+                    applications.
+                    <br><br>
+                    To ensure consistency and ease of scaling it was important to build a robust, yet flexible design
+                    system, that would allow current and future designers to be able to work faster, more efficiently
+                    and ensure visual and functional consistency between platforms.
+                </div>
+            </div>
+            <div style="display: flex; align-items: flex-start; gap: 41px; width: 300px;">
+                <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 16px;">
+                    <div
+                        style="color: #D0D0D0; text-align: left; font-family: SF Pro Display; font-size: 16px; font-style: normal; font-weight: 400; line-height: normal;">
+                        - Component Creation
+                    </div>
+                    <div
+                        style="color: #D0D0D0; text-align: left; font-family: SF Pro Display; font-size: 16px; font-style: normal; font-weight: 400; line-height: normal;">
+                        - Visual design
+                    </div>
+                </div>
+                <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 16px;">
+                    <div
+                        style="color: #D0D0D0; text-align: left; font-family: SF Pro Display; font-size: 16px; font-style: normal; font-weight: 400; line-height: normal;">
+                        - Pattern Creation
+                    </div>
+                    <div
+                        style="color: #D0D0D0; text-align: left; font-family: SF Pro Display; font-size: 16px; font-style: normal; font-weight: 400; line-height: normal;">
+                        - Typography
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="display: flex; flex-direction: column; gap: 80px; align-items: flex-start; margin-bottom:80px;"
+            class="images">
+            <div style="display: flex; gap: 12px;">
+                <img src="/DesignSystem/d1.png" alt="">
+                <img src="/DesignSystem/d2.png" alt="">
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 15px; align-items: flex-start;">
+                <div style="font-size: 20px; font-weight: 600;">Understanding the Challenge</div>
+                <div style="text-align: justify; font-size: 16px; font-weight: 400; max-width: 950px;">The clinical
+                    research landscape demands meticulous attention to detail, adherence to regulatory standards, and
+                    seamless user experiences. The challenge lay in harmonizing diverse applications while accommodating
+                    unique functionalities and compliance requirements of each platform. The design system needed to
+                    serve as a unifying bridge, allowing for efficient development, easy maintenance, and consistent
+                    user interactions across the CRO's suite of tools.
+                </div>
+            </div>
+
+            <div style="display: flex; gap: 12px;">
+                <img src="/DesignSystem/d3.png" alt="">
+                <img src="/DesignSystem/d4.png" alt="">
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 15px; align-items: flex-start;">
+                <div style="font-size: 20px; font-weight: 600;">Design Principles & Components</div>
+                <div style="text-align: justify; font-size: 16px; font-weight: 400; max-width: 950px;">The core
+                    principles of consistency, modularity, flexibility, and compliance guided the creation of a
+                    comprehensive library of reusable components. These components ranged from elemental design elements
+                    like buttons and inputs to more complex modules such as form sections, data visualization tools, and
+                    navigation patterns.
+                    <br><br>
+                    This was the most time-consuming portion of the project. I had to make decisions regarding naming
+                    conventions, categorization, organization, and presentation. I spent a lot of time naming and
+                    renaming my Figma layers and organizing my components page.
+                </div>
+            </div>
+
+            <div style="display: flex; gap: 12px;">
+                <img src="/DesignSystem/d5.png" alt="">
+                <img src="/DesignSystem/d6.png" alt="">
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 15px; align-items: flex-start;">
+                <div style="font-size: 20px; font-weight: 600;">Consistency Across Platforms</div>
+                <div style="text-align: justify; font-size: 16px; font-weight: 400; max-width: 950px;">Creating a
+                    unified design language was pivotal. Leveraging atomic design principles, I developed a hierarchical
+                    system of components, from atoms (such as buttons and inputs) to molecules (like form sections and
+                    tables) and organisms (complete sections or modules). This modular approach facilitated consistent
+                    design elements that could be combined and customized as needed for different platforms.
+                </div>
+            </div>
+            <div style="display: flex; gap: 12px;">
+                <img src="/DesignSystem/d7.png" alt="">
+                <img src="/DesignSystem/d8.png" alt="">
+            </div>
+
+
+            <div style="display: flex; flex-direction: column; gap: 15px; align-items: flex-start;">
+                <div style="font-size: 20px; font-weight: 600;">Continuous Iteration & Evolution</div>
+                <div style="text-align: justify; font-size: 16px; font-weight: 400; max-width: 950px;">The design system
+                    was not static but evolved in sync with new platforms that we were designing as well as user
+                    feedback. Regular reviews and feedback loops ensured that the system stayed relevant and adaptable
+                    to new design requests. Design Systems are by nature, a living thing. I set myself weekly reminders
+                    to update, review, and share the style guide.
+                </div>
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 15px; align-items: flex-start;">
+                <div style="font-size: 20px; font-weight: 600;">Results & Impact</div>
+                <ul
+                    style="text-align: justify; font-size: 16px; font-weight: 400; max-width: 950px; line-height: 150%; ">
+                    <li style="padding-bottom: 10px;"><span style="font-weight: 600;">Consistency and Efficiency:</span>
+                        Development cycles became more efficient, as reusable components reduced redundancy and
+                        expedited the design-to-development process.
+                    </li>
+                    <li style="padding-bottom: 10px;"><span style="font-weight: 600;">Streamlined Maintenance:</span>
+                        Updates and maintenance became more manageable across platforms, reducing the time and effort
+                        required for changes or enhancements.
+                    </li>
+                    <li style="padding-bottom: 10px;"><span style="font-weight: 600;">Improved User Experience:</span>
+                        Users benefited from a cohesive interface, enhancing usability and reducing the learning curve
+                        across multiple applications.
+                    </li>
+                </ul>
+            </div>
+
+
+                <img src="/DesignSystem/d9.png" alt="">
+
+
+
+
+            <a href="index.html">
+                <button class="project-button" style="display: flex; gap:10px; align-items: center;">
+                    <img src="fluent_arrow-up-12-filled.svg" alt="">
+                    <div>Back to all projects</div>
+                </button>
+            </a>
+
+
+
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

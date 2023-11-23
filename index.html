@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Basic Web Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mobilestyles.css">
+</head>
+
+<script src="//unpkg.com/@triggerjs/trigger" defer></script>
+<script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.27/bundled/lenis.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+
+<body>
+    <div class="cc">
+
+        <div class="navbar">
+            <div class="logo">
+                <img src="Group 203.svg" alt="Logo">
+            </div>
+            <ul class="nav-items">
+                <li><a onmousedown="openCaseStudies()" href="#case_studies">CASE STUDIES</a></li>
+                <li><a onmousedown="openVisuals()" href="#case_studies">DESIGN SHOTS</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+
+        <div class="hero">
+            <div class="hero-content">
+                <div class="title-section">
+                    <img class="exclude-main-img" src="exclude-main.png" />
+                    <div class="title-hero">I’M ALBERT KOKOSHI</div>
+                </div>
+                <div class="subtitle-section">
+                    <div class="subtitle-1">Digital Product Designer<br />based in Europe. <span class="count"><img class="countries" src="countries.svg" alt=""></span></div>
+                </div>
+                <div class="description-section">
+                    Building digital products, brands, and experiences.
+                </div>
+            </div>
+        </div>
+
+        <div class="image-container">
+            <div class="image-group-1">
+                <div class="cardX rellax" data-rellax-speed="4">
+                    <div class="innerX">
+                        <img style="object-fit: cover;" src="head1 (1).svg" />
+                    </div>
+                    <div class="blob"></div>
+                    <div class="fakeblob"></div>
+                </div>
+                <div class="cardX three rellax" data-rellax-speed="3">
+                    <div class="innerX">
+                        <img src="head2 (1).svg" />
+                    </div>
+                    <div class="blob"></div>
+                    <div class="fakeblob"></div>
+                </div>
+            </div>
+            <div
+                style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 25px; display: inline-flex">
+                <div class="cardX rellax" data-rellax-speed="2">
+                    <div class="innerX">
+                        <img src="head 3 (1).svg" />
+                    </div>
+                    <div class="blob"></div>
+                    <div class="fakeblob"></div>
+                </div>
+                <div class="cardX rellax" data-rellax-speed="1">
+                    <div class="innerX">
+                        <img src="head 4 (1).svg" />
+                    </div>
+                    <div class="blob"></div>
+                    <div class="fakeblob"></div>
+                </div>
+            </div>
+            <div class="cardX rellax" data-rellax-speed="1">
+                <div class="innerX">
+                    <img src="Frame 14067 1.svg" />
+                </div>
+                <div class="blob"></div>
+                <div class="fakeblob"></div>
+            </div>
+            <div
+                style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 25px; display: inline-flex">
+                <div class="cardX rellax" data-rellax-speed="5">
+                    <div class="innerX">
+                        <img src="head 7 (1).svg" />
+                    </div>
+                    <div class="blob"></div>
+                    <div class="fakeblob"></div>
+                </div>
+                <div class="cardX rellax" data-rellax-speed="6">
+                    <div class="innerX">
+                        <img src="head 6 (3).svg" />
+                    </div>
+                    <div class="blob"></div>
+                    <div class="fakeblob"></div>
+                </div>
+            </div>
+            <div
+                style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 25px; display: inline-flex">
+                <div class="cardX rellax" data-rellax-speed="4">
+                    <div class="innerX">
+                        <img src="head 8 (1).svg" />
+                    </div>
+                    <div class="blob"></div>
+                    <div class="fakeblob"></div>
+                </div>
+                <div class="cardX rellax" data-rellax-speed="3">
+                    <div class="innerX">
+                        <a onclick="shakeDiv()">
+                            <img src="head 9 (1).svg" />
+                        </a>
+                    </div>
+                    <div class="blob"></div>
+                    <div class="fakeblob"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Sticky bottom section -->
+        <div class="sticky-bottom-section card2 shake" id="shakeDiv">
+            <div class="sticky-content inner2">
+                <div class="logo">
+                    <img src="/Frame 2.png" alt="Logo">
+                </div>
+                <div class="icons sticky-mid">
+                    <img src="/teenyicons_dribbble-solid.svg" alt="Icon 2" title="Dribbble">
+                    <img class="behance" src="/Vector.svg" alt="Icon 1" title="Behance">
+                    <img src="/linkedin.svg" alt="Icon 3" title="Linkedin">
+                </div>
+                <div class="icons sticky-right">
+                    <div class="btn">
+                        <button class="sticky-button">Get in touch</button>
+                    </div>
+                </div>
+            </div>
+            <div class="blob2"></div>
+            <div class="fakeblob2"></div>
+        </div>
+
+        <br><br><br><br><br><br><br><br><br>
+
+        <div class="help">Here's Some Of The Things I Can Help You With</div>
+        <div class="br">Branding, Design, Development <span class="white"> <br> — it’s all coming together. </span>
+        </div>
+
+        <div class="gencap">
+            <div class="col_1">
+                <div id="containerx" class="containerx"></div>
+                <div id="containerx1" class="containerx1"></div>
+                <div id="containerx2" class="containerx2"></div>
+                <div class="card">
+                    <div class="inner">
+                        <div class="title">Product Design</div>
+                        <div class="subtitle a0">UI/UX design for applications, SaaS platforms, interactive experiences,
+                            and
+                            more.</div>
+
+                        <img class="illustration" id="zoom-in" src="/G61.png" alt="">
+
+                        <BR><BR><BR>
+                    </div>
+                    <div class="blob"></div>
+                    <div class="fakeblob"></div>
+                </div>
+                <div class="card">
+                    <div class="inner">
+                        <div class="title">Development</div>
+                        <div id="trigger-point"></div>
+                        <div class="subtitle a1">UI/UX design for applications, SaaS platforms, interactive experiences,
+                            and
+                            more.</div>
+                        <img class="illustration" id="zoom-in4" src="/G640.png" alt="">
+                    </div>
+                    <div class="blob"></div>
+                    <div class="fakeblob"></div>
+                </div>
+            </div>
+            <div class="col_1">
+                <div class="card">
+                    <div class="inner">
+                        <div class="title">Visual Design</div>
+                        <div class="subtitle a2">UI/UX design for applications, SaaS platforms, interactive experiences,
+                            and
+                            more.</div>
+                        <img class="illustration" id="zoom-in2" src="/G62.png" alt="">
+                    </div>
+                    <div class="blob"></div>
+                    <div class="fakeblob"></div>
+                </div>
+                <div class="card">
+                    <div class="inner">
+                        <div class="title">Design Systems</div>
+                        <div class="subtitle a3">UI/UX design for applications, SaaS platforms, interactive experiences,
+                            and
+                            more.</div>
+                        <img class="illustration" id="zoom-in3" src="/G63.png" alt="">
+                    </div>
+                    <div class="blob"></div>
+                    <div class="fakeblob"></div>
+                </div>
+                <div class="card">
+                    <div class="inner">
+                        <div class="title">Motion Design</div>
+                        <div class="subtitle a4">UI/UX design for applications, SaaS platforms, interactive experiences,
+                            and
+                            more.</div>
+                        <img class="illustration" id="zoom-in5" src="/G65.png" alt="">
+                    </div>
+                    <div class="blob"></div>
+                    <div class="fakeblob"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br><br><br><br>
+
+    <div class="help" id="case_studies">Selected Works</div>
+    <div class="br">Branding, Design, Development <span class="white"> <br> — it’s all coming together. </span></div>
+
+    <div class="works">
+        <div class="menu">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <div class="projects-header">
+
+        <div class="left">Recent Projects</div>
+
+        <div class="segment-menu">
+            <div class="menu-btn active" id="menu-btn1">
+                <img src="/bi_stack.svg" alt="">
+                <div>Case Studies</div>
+            </div>
+            <div class="menu-btn" id="menu-btn2">
+                <img src="/visuals.svg" alt="">
+                <div>Visuals</div>
+            </div>
+        </div>
+
+        <div class="left">Last Updated: <span class="date">October 2023</span></div>
+
+    </div>
+
+    <!-- Grid for Large Images -->
+    <div class="large-grid">
+
+        <div class="project">
+            <div class="left-side">
+                <div class="project-title">Clinical Trial Suite</div>
+                <div class="project-subtitle">Product Design, User Research, Design QA</div>
+                <div class="project-decscription">Designed to collect, manage, and store clinical trial data in an
+                    electronic format, replacing the traditional paper-based methods of data collection and management.
+                </div>
+                <a href="Project1.html">
+                    <button class="project-button">Read Case Study</button>
+                </a>
+            </div>
+            <div class="right-side">
+                <div class="image" onmouseover="startImageRotation()" onmouseleave="stopImageRotation()"></div>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="left-side">
+                <div class="project-title">Freelancer & TurnUp</div>
+                <div class="project-subtitle">Product Design, User Research, Design QA</div>
+                <div class="project-decscription">Designed to collect, manage, and store clinical trial data in an
+                    electronic format, replacing the traditional paper-based methods of data collection and management.
+                </div>
+                <a href="Turnup.html">
+                    <button class="project-button">Read Case Study</button>
+                </a>
+            </div>
+
+            <div class="right-side">
+                <div class="imageD" onmouseover="startImageRotation()" onmouseleave="stopImageRotation()"></div>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="left-side">
+                <div class="project-title">Vial Design System</div>
+                <div class="project-subtitle">Product Design, User Research, Design QA</div>
+                <div class="project-decscription">Designed to collect, manage, and store clinical trial data in an
+                    electronic format, replacing the traditional paper-based methods of data collection and management.
+                </div>
+                <a href="DesignSystem.html">
+                    <button class="project-button">Read Case Study</button>
+                </a>
+            </div>
+
+            <div class="right-side">
+                <div class="imageB" onmouseover="startImageRotation()" onmouseleave="stopImageRotation()"></div>
+            </div>
+        </div>
+
+        <div class="project-last">
+            <div class="left-side">
+                <div class="project-title">Metabolik</div>
+                <div class="project-subtitle">Product Design, User Research, Design QA</div>
+                <div class="project-decscription">Designed to collect, manage, and store clinical trial data in an
+                    electronic format, replacing the traditional paper-based methods of data collection and management.
+                </div>
+                <a href="Metabolik.html">
+                    <button class="project-button">Read Case Study</button>
+                </a>
+            </div>
+
+            <div class="right-side">
+                <div class="imageC" onmouseover="startImageRotation()" onmouseleave="stopImageRotation()"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Grid for Small Images (initially hidden) -->
+    <div class="small-grid" style="display: none;">
+
+        <div style="display: flex; flex-direction: column; gap: 12px;">
+            <div style="display: flex; gap: 12px;">
+                <img src="/Visuals/v1.png" alt="">
+                <img src="/Visuals/v2.png" alt="">
+                <img src="/Visuals/v3.png" alt="">
+            </div>
+
+            <div style="display: flex; gap: 12px;">
+                <img src="/Visuals/v4.png" alt="">
+                <img src="/Visuals/v5.png" alt="">
+            </div>
+
+            <div style="display: flex; gap: 12px;">
+                <img src="/Visuals/v6.png" alt="">
+                <video style="max-width: 828px; border-radius: 20px;" autoplay loop src="BB-001 v4.mp4"></video>
+            </div>
+
+            <div style="display: flex; gap: 12px;">
+                <img src="/Visuals/v8.png" alt="">
+                <img src="/Visuals/v9.png" alt="">
+            </div>
+
+            <div style="display: flex; gap: 12px;">
+                <img src="/Visuals/v10.png" alt="">
+                <img src="/Visuals/v11.png" alt="">
+            </div>
+
+            <div style="display: flex; gap: 12px;">
+                <img src="/Visuals/v12.png" alt="">
+                <img src="/Visuals/v13.png" alt="">
+            </div>
+
+            <div style="display: flex; gap: 12px;">
+                <img src="/Visuals/v14.png" alt="">
+                <img src="/Visuals/v15.png" alt="">
+                <img src="/Visuals/v16.png" alt="">
+            </div>
+
+            <div style="display: flex; gap: 12px;">
+                <img src="/Visuals/v17.png" alt="">
+                <img src="/Visuals/v18.png" alt="">
+            </div>
+
+            <div style="display: flex; gap: 12px;">
+                <img src="/Visuals/v19.png" alt="">
+                <img src="/Visuals/v20.png" alt="">
+            </div>
+
+            <a target="_blank" href="https://dribbble.com/alberkko">
+                <div class="card3"
+                    style="width: 100%; height: 100%; border: 1px #2B2B2B solid; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 22.94px; display: inline-flex">
+                    <div class="inner3"
+                        style="align-self: stretch; justify-content: space-between; align-items: center; display: inline-flex">
+                        <div style="justify-content: flex-start; align-items: center; gap: 17px; display: flex">
+                            <div style="width: 41.29px; height: 41.29px; position: relative">
+                                <div
+                                    style="width: 41.29px; height: 41.29px; left: 0px; top: 0px; position: absolute; background: #1C1C1C; border-radius: 10.32px; border: 1.15px #535353 solid">
+                                </div>
+                                <div style="width: 24px; height: 24px; left: 8.80px; top: 8.35px; position: absolute">
+                                    <img src="basil_dribbble-solid.svg" alt="">
+                                </div>
+                            </div>
+                            <div
+                                style="flex-direction: column; justify-content: flex-start; align-items: center; gap: 1px; display: inline-flex">
+                                <div
+                                    style="align-self: stretch; color: #C4C4C4; font-size: 18.35px; font-family: SF Pro; font-weight: 400; word-wrap: break-word">
+                                    See More Visuals on Dribbble</div>
+                                <div
+                                    style="align-self: stretch; justify-content: space-between; align-items: center; display: inline-flex">
+                                    <div
+                                        style="text-align: center; color: #4A4A4A; font-size: 11.47px; font-family: SF Pro; font-weight: 510; word-wrap: break-word">
+                                        www.dribbble.com/alberkko</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dribble_arrow"
+                            style="width: 21px; height: 21px; position: relative; transform: rotate(90deg);">
+                            <img style="transform: rotate(-90deg);" src="fluent_arrow-up-12-filled (1).svg" alt="">
+                        </div>
+                    </div>
+                    <div class="blob3"></div>
+                    <div class="fakeblob3"></div>
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        // Also can pass in optional settings block
+        var rellax = new Rellax('.rellax', {
+            speed: 2,
+            center: false,
+            wrapper: null,
+            round: true,
+            vertical: true,
+            horizontal: false
+        });
+    </script>
+
+</body>
+
+</html>
