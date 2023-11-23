@@ -1232,17 +1232,22 @@ section {
 }
 
 
-#load{
-    width:100%;
-    height:100%;
-    position:fixed;
-    z-index:9999;
+#load {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 9999;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 20px;
-    background:url("") no-repeat center center #101010;
+    background: url("") no-repeat center center #101010;
+}
+
+.d-flex-g12 {
+    display: flex;
+    gap: 12px;
 }
 
 
@@ -1259,7 +1264,7 @@ section {
 
     .subtitle-1 {
         text-align: center;
-        font-size: 1em;
+        font-size: 1.2em;
         line-height: 1.3em;
     }
 
@@ -1365,38 +1370,56 @@ section {
         padding-bottom: 1em !important;
     }
 
-    .project-button{
+    .project-button {
         font-size: 2em !important;
         padding: 0.8em !important;
     }
 
-    .image{
+    .image {
         width: 90vw !important;
         height: 600px !important;
     }
 
-    .imageB{
+    .imageB {
         width: 90vw !important;
         height: 600px !important;
     }
 
-    .imageC{
+    .imageC {
         width: 90vw !important;
         height: 600px !important;
     }
 
-    .imageD{
+    .imageD {
         width: 90vw !important;
         height: 600px !important;
     }
 
+    .countries {
+        scale: 1.5;
+        margin-top: 10px !important;
+    }
+
+    .project-button {
+        display: none;
+    }
 
 
+    .d-flex-g12 {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 
+    #load{
+        display: none;
+    }
 
-
-
-
+    .projects-header{
+        display: none !important;
+    }
 
 
 }
